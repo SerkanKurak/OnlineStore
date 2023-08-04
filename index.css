@@ -1,0 +1,44 @@
+/* Header styles */
+
+.header{
+    position: sticky;
+}
+
+.header-wrapper{
+   display: flex; 
+   align-items: center;
+}
+
+.header-nav{
+    display: flex;
+    margin-right: 24px;
+}
+
+.left-nav{
+    display: flex;
+    box-sizing: border-box;
+}
+
+.header-logo{
+    display: flex;
+    box-sizing: border-box;
+    align-items: center; 
+    height: 64px;
+    margin-right: 24px;
+}
+
+.rigth-nav{
+    display: flex;
+    box-sizing: border-box; 
+}
+
+.user-logo{
+    display: flex;
+}
+
+.search-header{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin-top: 24px;
+}
